@@ -89,7 +89,7 @@ li {
   border-top: 1px solid lightgray;
 }
 
-/ @media screen and (max-width: 786px) {
+@media screen and (max-width: 786px) {
   body {
     max-width: 786px;
   }
