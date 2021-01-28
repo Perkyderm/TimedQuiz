@@ -1,35 +1,44 @@
 var questions = [
   {
-    title: "Commonly used data types DO NOT include:",
-    choices: ["strings", "booleans", "alerts", "numbers"],
-    answer: "alerts",
+    title: "African Elephants: Who can have tusks?",
+    choices: ["Males", "Females", "Both"],
+    answer: "Both",
   },
   {
-    title: "The condition in an if / else statement is enclosed within ____.",
-    choices: ["quotes", "curly brackets", "parentheses", "square brackets"],
-    answer: "parentheses",
+    title: "Manta rays are from the same family as which other marine life?.",
+    choices: ["Oceanic Sharks", "Eels", "Marlin", "Nurse Sharks"],
+    answer: "Oceanic Sharks",
   },
   {
-    title: "Arrays in Javascript can be used to store ____.",
+    title: "Which type of bat can have a wingspan of up to 5½'.",
     choices: [
-      "numbers and strings",
-      "other arrays",
-      "booleans",
-      "all of the above",
+      "Indiana Bats",
+      "Flying Foxes (Fruit Bats)",
+      "Hog-nosed Bats",
+      "Vampire Bats",
     ],
-    answer: "all of the above",
+    answer: "Flying Foxes (Fruit Bats)",
   },
   {
-    title:
-      "String values must be enclosed within ____ when being assigned to variables.",
-    choices: ["commas", "curly brackets", "quotes", "parenthesis"],
-    answer: "quotes",
+    title: "What causes a Blue poison dart frog to become poisonous?",
+    choices: [
+      "The air they breather",
+      "The insects they eat",
+      "Their genetics",
+      "Their water source",
+    ],
+    answer: "The insects they eat",
   },
   {
-    title:
-      "A very useful tool for used during development and debugging for printing content to the debugger is:",
-    choices: ["Javascript", "terminal / bash", "for loops", "console log"],
-    answer: "console log",
+    title: "Which of these species is critically endangered?",
+    choices: [
+      "Amur Leopard",
+      "Sumatran Elephant",
+      "Black Rhino",
+      "Yangtze Finless Porpoise",
+      "All of the above",
+    ],
+    answer: "All of the above",
   },
 ];
 
@@ -106,13 +115,7 @@ function compare(event) {
   if (questionIndex >= questions.length) {
     allDone();
     createDiv.textContent =
-      "End of quiz!" +
-      " " +
-      "You got  " +
-      score +
-      "/" +
-      questions.length +
-      " Correct!";
+      "You got  " + score + "/" + questions.length + " Correct!";
   } else {
     render(questionIndex);
   }

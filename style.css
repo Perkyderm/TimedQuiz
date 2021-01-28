@@ -30,6 +30,7 @@ body p {
 
 #currentTime {
   float: right;
+  font-size: larger;
 }
 
 #goBack {
