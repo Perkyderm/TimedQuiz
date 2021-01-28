@@ -22,7 +22,7 @@ var questions = [
   {
     title: "What causes a Blue poison dart frog to become poisonous?",
     choices: [
-      "The air they breather",
+      "The air they breathe",
       "The insects they eat",
       "Their genetics",
       "Their water source",
@@ -50,7 +50,7 @@ var timer = document.querySelector("#startTime");
 var questionsDiv = document.querySelector("#questionsDiv");
 var wrapper = document.querySelector("#wrapper");
 
-var secondsLeft = 76;
+var secondsLeft = 90;
 
 var holdInterval = 0;
 
