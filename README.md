@@ -9,6 +9,6 @@ After the time has expired or all questions are answered, a final score will be 
 
 # Usage
 
-Click <a href=" https://perkyderm.github.io/TimedQuiz/">this link</a> to begin the quiz!
+Click <a href="https://perkyderm.github.io/TimedQuiz/">this link</a> to begin the quiz!
 
 # Note
